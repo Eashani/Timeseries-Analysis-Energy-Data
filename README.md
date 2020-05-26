@@ -23,6 +23,7 @@ The data has been normalized prior to usage. The FBProphet, RNN and LSTM models 
 
 Root mean squared error (RMSE) was used as the error metric. The neural network models had the lowest RMSE and were the best
 
+
 <img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/rmse.png" alt="Sample data_dayton" width="400" height="300">
 
 Looking at the plots for predicted vs observed data (Blue: predicted, Red: observed),
