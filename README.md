@@ -7,12 +7,12 @@ Forecasting of future data is very valuable in the Energy sector where informati
 The data has been sourced from Kaggle: https://www.kaggle.com/robikscube/hourly-energy-consumption 
 It contains power consumption readings for various electricity companies in MegaWatts (MW). The Dayton dataset has been used for this analysis. However, a master dataset containing data from all the power companies has been used at the end for an experimental model. 
 
-<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data-/blob/master/pic1dayton.png" alt="Sample data_dayton" width="300" height="300">
+<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/pic1dayton.png" alt="Sample data_dayton" width="300" height="300">
 
 ## Data Exploration
 
 The data starts from approximatelty 2005 to 2018 and has been recorded per hour.
-<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data-/blob/master/dayton_hourly.png" alt="Sample data_dayton" width="700" height="300">
+<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/dayton_hourly.png" alt="Sample data_dayton" width="700" height="300">
 
 ## Analysis
 
@@ -23,20 +23,20 @@ The data has been normalized prior to usage. The FBProphet, RNN and LSTM models 
 
 Root mean squared error (RMSE) was used as the error metric. The neural network models had the lowest RMSE and were the best
 
-<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data-/blob/master/rmse.png" alt="Sample data_dayton" width="400" height="300">
+<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/rmse.png" alt="Sample data_dayton" width="400" height="300">
 
 Looking at the plots for predicted vs observed data (Blue: predicted, Red: observed),
 
 ### FBprophet 
-<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data-/blob/master/prophet.png" alt="fbprophet" width="700" height="300">
+<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/prophet.png" alt="fbprophet" width="700" height="300">
 
 ### XGBoost 
-<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data-/blob/master/xgboost.png" alt="xgboost" width="700" height="300">
-<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data-/blob/master/xgboost2.png" alt="xgboost2" width="700" height="300">
+<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/xgboost.png" alt="xgboost" width="700" height="300">
+<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/xgboost2.png" alt="xgboost2" width="700" height="300">
 
 ### RNN 
-<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data-/blob/master/rnn.png" alt="rnn" width="700" height="300">
+<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/rnn.png" alt="rnn" width="700" height="300">
 
 ### LSTM
 
-<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data-/blob/master/lstm.png" alt="lstm" width="700" height="300">
+<img src="https://github.com/Eashani/Timeseries-Analysis-Energy-Data/blob/master/lstm.png" alt="lstm" width="700" height="300">
